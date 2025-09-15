@@ -93,6 +93,28 @@
     font-weight: bold;
     cursor: pointer;
   }
+
+  .telegram-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #0088cc; /* фирменный цвет Telegram */
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .telegram-btn:hover {
+    background-color: #006699;
+    transform: scale(1.05);
+  }
+
+  .telegram-btn:active {
+    transform: scale(0.97);
+  }
+    
 </style>
 
 </head>
@@ -100,13 +122,14 @@
 
 <h1>Игорь Савин Unity Developer Проекты</h1>
   
-<a href="http://t.me/tk115" target="_blank" rel="noopener noreferrer">
+<a href="http://t.me/tk115" target="_blank" rel="noopener noreferrer" class="telegram-btn">
   Мой телеграм
 </a>
-  <br>
-<a href="mailto:example@mail.com"> Моя почта - savin.igor@live.com</a>
 <br>
-<a href="https://github.com/tk-115" target="_blank" rel="noopener noreferrer">
+<a href="mailto:example@mail.com"> Моя почта - savin.igor@live.com class="telegram-btn">
+</a>
+<br>
+<a href="https://github.com/tk-115" target="_blank" rel="noopener noreferrer" class="telegram-btn">
   Мой github
 </a>
   
@@ -300,6 +323,7 @@
 
 </body>
 </html>
+
 
 
 
